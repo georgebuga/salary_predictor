@@ -1,33 +1,71 @@
-# 💼 Salary Predictor
+# 💼 Salary Predictor (Flask + ML)
 
-A simple machine learning web app built with Flask that predicts yearly salary based on:
+A simple Flask web app that predicts software developer salaries based on country, education, and years of experience.  
+Built with **Python**, **Flask**, **Scikit-learn**, and styled with **Bootstrap 5**.
 
-- Country
-- Education Level
-- Years of Experience
+![screenshot](static/screenshot.png)
 
-🔍 Powered by data from the Stack Overflow Developer Survey 2023.
+---
 
 ## 🚀 Features
 
-- Trained with Random Forest Regressor (scikit-learn)
-- Clean Bootstrap 5 interface
-- Real-time predictions
-- Fully open-source
+- 🧠 Machine Learning model trained on Stack Overflow survey data
+- 🌍 Country & education level input via dropdown
+- 📈 Real-time salary prediction
+- 📱 Responsive design (Bootstrap 5)
 
-## 🖥️ Tech Stack
+---
 
-- Python
+## 🛠 Tech Stack
+
+- Python 3.10
 - Flask
-- scikit-learn
+- Scikit-learn
+- Pandas, NumPy
 - Bootstrap 5
 
-## ⚙️ Setup
+---
 
-```bash
-git clone https://github.com/<your-username>/salary-predictor.git
-cd salary-predictor
+## 📂 Project Structure
+
+salary_predictor/
+├── app.py
+├── model/
+│ └── salary_model.pkl
+├── templates/
+│ └── index.html
+├── static/
+│ └── screenshot.png
+├── requirements.txt
+└── README.md
+
+
+## 📷 Screenshot
+
+> Replace with your actual UI screenshot.
+
+![Screenshot](static/screenshot.png)
+
+---
+
+## 🔧 Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/<your-user>/salary-predictor.git
+   cd salary-predictor
+
+## Create virtual environment:
+
 python3 -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate
+
+## Create virtual environment:
+
 pip install -r requirements.txt
-python app.py
+
+## Install dependencies:
+
+pip install -r requirements.txt
+
+Run the app:
