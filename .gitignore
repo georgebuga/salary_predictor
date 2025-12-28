@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Model files
+*.pkl
+
+# System files
+.DS_Store
+*.log
+
+# Environments
+.env
+
+# CSV
+*.csv
