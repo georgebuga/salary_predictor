@@ -28,23 +28,21 @@ Built with **Python**, **Flask**, **Scikit-learn**, and styled with **Bootstrap 
 
 ## 📂 Project Structure
 
-salary_predictor/
-├── app.py
-├── model/
-│ └── salary_model.pkl
-├── templates/
-│ └── index.html
-├── static/
-│ └── screenshot.png
-├── requirements.txt
-└── README.md
+salary_predictor/ \
+├── app.py \
+├── model/ \
+│ └── salary_model.pkl \
+├── templates/ \
+│ └── index.html \
+├── static/ \
+│ └── screenshot.png \
+├── requirements.txt \
+└── README.md \
 
 
 ## 📷 Screenshot
 
-> Replace with your actual UI screenshot.
-
-![Screenshot](static/screenshot.png)
+![Screenshot](static/Screenshot.png)
 
 ---
 
