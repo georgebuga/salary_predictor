@@ -44,7 +44,6 @@ salary_predictor/ \
 
 ![Screenshot](static/Screenshot.png)
 
----
 
 ## 🔧 Setup
 
@@ -66,4 +65,6 @@ pip install -r requirements.txt
 
 pip install -r requirements.txt
 
-Run the app:
+## Run the app:
+
+python app.py
